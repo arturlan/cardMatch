@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8535E4A50A8DCC53B722F94E2347FE1B5D0125F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC00B0370BF6CE50CF8D6B743E30CE9D4B9706A5" : 9223372036854775807,
+    "E8535E4A50A8DCC53B722F94E2347FE1B5D0125F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF1081C5-7E79-4A03-BBDF-009329E30DE3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC00B0370BF6CE50CF8D6B743E30CE9D4B9706A5" : "",
+    "E8535E4A50A8DCC53B722F94E2347FE1B5D0125F" : "Matchismo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Matchismo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Matchismo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arturlan\/arturlan.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC00B0370BF6CE50CF8D6B743E30CE9D4B9706A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arturlan\/cardMatch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8535E4A50A8DCC53B722F94E2347FE1B5D0125F"
+    }
+  ]
+}
