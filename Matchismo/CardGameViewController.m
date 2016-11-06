@@ -12,7 +12,7 @@
 @interface CardGameViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
-@property (strong, nonatomic) Deck *deck;
+@property (nonatomic, strong) Deck *deck;
 @end
 
 @implementation CardGameViewController
@@ -20,7 +20,6 @@
 - (Deck *)deck
 {
     if (!_deck) _deck = [self createDeck];
-
     return _deck;
 }
 
