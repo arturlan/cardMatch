@@ -42,9 +42,12 @@
         [sender setTitle:@"" forState:UIControlStateNormal];
     } else {
         Card *card = [self.deck drawRandomCard];
+        if (card) {
         [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
                           forState:UIControlStateNormal];
         [sender setTitle:card.contents forState:UIControlStateNormal];
+    
+        }
     }
     self.flipCount++;
 }

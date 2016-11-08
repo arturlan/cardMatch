@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BCA19921DD16628007D5F22 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA19911DD16628007D5F22 /* CardMatchingGame.m */; };
 		0BCA5B6F1DCACBA800C9B5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA5B6E1DCACBA800C9B5FE /* main.m */; };
 		0BCA5B721DCACBA800C9B5FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA5B711DCACBA800C9B5FE /* AppDelegate.m */; };
 		0BCA5B781DCACBA800C9B5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA5B761DCACBA800C9B5FE /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCA19901DD16628007D5F22 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		0BCA19911DD16628007D5F22 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		0BCA5B6A1DCACBA800C9B5FE /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCA5B6E1DCACBA800C9B5FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BCA5B701DCACBA800C9B5FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				0BCA5B881DCACD2800C9B5FE /* Deck.m */,
 				0BEF53EB1DCBC9AF0050BCE5 /* PlayingCardDeck.h */,
 				0BEF53EC1DCBC9AF0050BCE5 /* PlayingCardDeck.m */,
+				0BCA19901DD16628007D5F22 /* CardMatchingGame.h */,
+				0BCA19911DD16628007D5F22 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				0BCA5B891DCACD2800C9B5FE /* Deck.m in Sources */,
 				0BCA5B721DCACBA800C9B5FE /* AppDelegate.m in Sources */,
 				0BCA5B8D1DCAD6C000C9B5FE /* CardGameViewController.m in Sources */,
+				0BCA19921DD16628007D5F22 /* CardMatchingGame.m in Sources */,
 				0BEF53ED1DCBC9AF0050BCE5 /* PlayingCardDeck.m in Sources */,
 				0BCA5B6F1DCACBA800C9B5FE /* main.m in Sources */,
 				0BCA5B861DCACBE800C9B5FE /* Card.m in Sources */,
