@@ -25,7 +25,7 @@
                                                           usingDeck:[self createDeck]];
     return _game;
 }
-
+    
 
 - (Deck *)createDeck
 {
@@ -63,6 +63,10 @@
 }
 
 
+- (IBAction)switcherToThreeCardGame:(UISwitch *)sender
+{
+    
+}
 
 
 
