@@ -14,7 +14,9 @@
 
 @property (nonatomic, strong) CardMatchingGame *game;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
+@property (nonatomic) NSInteger numberOfCardsToPlayWith;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *matchModeLabel;
 @end
 
 @implementation CardGameViewController
@@ -22,7 +24,8 @@
 - (CardMatchingGame *)game
 {
     if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                          usingDeck:[self createDeck]];
+                                                          usingDeck:[self createDeck]
+                                            numberOfCardsToPlayWith:self.numberOfCardsToPlayWith];
     return _game;
 }
     
@@ -32,6 +35,11 @@
     return [[PlayingCardDeck alloc] init];
 }
 
+- (NSInteger)numberOfCardsToPlayWith
+{
+    if (!_numberOfCardsToPlayWith) _numberOfCardsToPlayWith = 2;
+    return _numberOfCardsToPlayWith;
+}
 
 - (IBAction)touchCardButton:(UIButton *)sender
 {
@@ -63,11 +71,21 @@
 }
 
 
-- (IBAction)switcherToThreeCardGame:(UISwitch *)sender
+- (IBAction)switchMode:(UISwitch *)sender
 {
-    
+    if (sender.isOn) {
+        self.numberOfCardsToPlayWith = 3;
+        self.matchModeLabel.text = @"Mode: 3-Cards";
+        NSLog(@"%ld", (long)self.numberOfCardsToPlayWith);
+    } else {
+        self.numberOfCardsToPlayWith = 2;
+        self.matchModeLabel.text = @"Mode: 2-Cards";
+    }
 }
 
+
+- (IBAction)resetGameButton:(UIButton *)sender {
+}
 
 
 

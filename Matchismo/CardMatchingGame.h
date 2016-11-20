@@ -12,7 +12,8 @@
 
 // designated initialezer
 - (instancetype)initWithCardCount:(NSUInteger)count
-                        usingDeck:(Deck *)deck;
+                        usingDeck:(Deck *)deck
+          numberOfCardsToPlayWith:(NSInteger)numberOfCardsToPlayWith;
 
 - (void)chooseCardAtIndex:(NSUInteger)index;
 - (Card *)cardAtIndex:(NSUInteger)index;

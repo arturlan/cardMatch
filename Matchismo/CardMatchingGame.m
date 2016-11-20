@@ -13,6 +13,7 @@
 
 @property (nonatomic, readwrite) NSInteger score;
 @property (nonatomic, strong) NSMutableArray *cards; //of cards
+@property (nonatomic) NSInteger numberOfCardsToPlayWith;
 @end
 
 @implementation CardMatchingGame
@@ -23,7 +24,9 @@
     return _cards;
 }
 
-- (instancetype)initWithCardCount:(NSUInteger)count usingDeck:(Deck *)deck
+- (instancetype)initWithCardCount:(NSUInteger)count
+                        usingDeck:(Deck *)deck
+          numberOfCardsToPlayWith:(NSInteger)numberOfCardsToPlayWith
 {
     self = [super init];
     
